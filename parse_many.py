@@ -5,7 +5,7 @@ new_url = 'https://www.cian.ru/sale/flat/'
 
 
 def parse():
-    i = 280994721
+    i = 280994722
     while True:
         url = new_url + f'{i}/'
         print(i)
